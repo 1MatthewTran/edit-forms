@@ -68,8 +68,8 @@ function App() {
   document.title = "Edit Forms";
   const [form, setForm] = useState<formType>({
     id: 1,
-    name: "Matthew Tran",
-    contact: "Contact",
+    name: "MT CORP",
+    contact: "Matthew",
     address: "123 Main Street",
     city: "New York",
     state: "NY",
