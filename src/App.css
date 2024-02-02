@@ -1,0 +1,54 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#root {
+  width: 100%;
+}
+
+
+.center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.select {
+  background-color: #162c5b;
+  border: 0;
+}
+
+.container {
+  height: calc(100vh - 53px);
+  margin-top: 0 !important;
+  color: #000;
+}
+
+.appbar {
+  background-color: #162c5b !important;
+}
+
+.fullWidth {
+  max-width: 100% !important;
+}
+
+.wide {
+  width: 100% !important;
+}
+
+button {
+  text-transform: capitalize !important;
+}
+
+.green {
+  background-color: green !important;
+}
+
+.divider {
+  margin: 20px 0 !important;
+}
